@@ -1,0 +1,9 @@
+pandas
+datetime
+seaborn
+streamlit
+plotly
+matplotlib
+python_version
+wheel
+setuptools
