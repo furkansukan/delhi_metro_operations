@@ -13,13 +13,13 @@ st.write("""
 """)
 
 # Verileri yükleme
-agency = pd.read_csv('agency.txt')
-calendar = pd.read_csv('calendar.txt')
-routes = pd.read_csv('routes.txt')
-shapes = pd.read_csv('shapes.txt')
-stop_times = pd.read_csv('stop_times.txt')
-stops = pd.read_csv('stops.txt')
-trips = pd.read_csv('trips.txt')
+agency = pd.read_csv('delhi_metro_operations/agency.txt')
+calendar = pd.read_csv('delhi_metro_operations/calendar.txt')
+routes = pd.read_csv('delhi_metro_operations/routes.txt')
+shapes = pd.read_csv('delhi_metro_operations/shapes.txt')
+stop_times = pd.read_csv('delhi_metro_operations/stop_times.txt')
+stops = pd.read_csv('delhi_metro_operations/stops.txt')
+trips = pd.read_csv('delhi_metro_operations/trips.txt')
 
 # Delhi Metro Rotalarının Coğrafi Yolları
 st.subheader('Geographical Paths of Delhi Metro Routes')
